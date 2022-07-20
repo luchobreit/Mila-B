@@ -1,0 +1,16 @@
+@import "/src/Custom.scss";
+.ci-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.ci-txt{
+    font-family: $font-p;
+    font-size: larger;
+}
+
+.prod-ci{
+    align-self: center;
+    justify-self: center;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import "/src/Custom.scss";
+
+
+.ti-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+   
+}
+.card-container{
+    width: 33%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.c-card{
+    width: 100%;
+    overflow: hidden;
+}
+.card-img{
+    width: 150%;
+    height: 100vh;
+    object-fit: fill;
+    box-shadow: 12px -39px 53px 15px rgba(70, 63, 63, 0.75) inset;
+}
+.card-img:hover{
+    opacity: 0.8;
+    transition: all 1s;
+}
+.just-us{
+    width: 100;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.us-img{
+    width: 100%;
+    
+}
+.text-us{
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+    font-family: $font-s;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 100%;
+    background: linear-gradient(180deg, #FE0000 16.66%,
+    #FD8C00 16.66%, 33.32%,
+    #FFE500 33.32%, 49.98%,
+    #119F0B 49.98%, 66.64%,
+    #0644B3 66.64%, 83.3%,
+    #C22EDC 83.3%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-us1{
+    align-self: flex-start;
+    font-size: 8em;
+}
+.texto-us2{
+    align-self: flex-start;
+    font-size: 8em;
+}
+
+.card-t-c{
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+    color: rgb(182, 62, 62);
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 100%;
+    overflow: hidden;
+    font-family: $font-s;
+}
+.card-txt1{
+    color: rgb(231, 213, 49);
+}
+.card-txt2{
+    color: rgb(231, 49, 134);
+}
+.card-txt3{
+    color: rgb(28, 182, 131);
+}

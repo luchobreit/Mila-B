@@ -1,0 +1,32 @@
+@import "/src/Custom.scss";
+
+
+.c-img{
+    width: 100;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-home-1{
+    height: 98vh;
+    width: 100%;
+}
+.c-txt{
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+.txt{
+    color: rgb(100, 7, 7);
+    font-family: $font-p;
+    font-size: 5em;
+    font-weight: bolder;
+    padding: 0;
+}
+.subt-text{
+    color: whitesmoke;
+    font-family: $font-p;
+    font-size: 3em;
+}   

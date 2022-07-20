@@ -1,0 +1,28 @@
+$theme-colors: (
+  "primary":    #F9EBC8,
+  "secondary":  #FDF6EC,
+  "success":    #78938A,
+  "info":       #8FBDD3,
+  "warning":    #c7b7b3,
+  "danger":     #BB6464,
+  "light":      #B4CFB0,
+  "dark":       #6B7AA1
+);
+
+
+  $color-1:    #78938A;
+  $color-2:    #DEB6AB;
+  $color-3:    #FDF6EC;
+
+
+
+@import 'bootstrap/scss/bootstrap';
+
+// Customs generales
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,400&display=swap');
+
+
+$font-p:'PT Serif', serif;
+$font-s:'Merriweather', serif;

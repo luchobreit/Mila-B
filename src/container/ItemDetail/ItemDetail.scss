@@ -1,0 +1,54 @@
+@import "/src/Custom.scss";
+
+.item-dtl-c{
+    background-color: aliceblue;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.dtl-txt-c{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    margin-left: 4%;
+    height:30em;
+    font-family: $font-p; 
+    width: 80%;
+}
+.dtl-txt-c h1{
+    color: #DE8971;
+    width: 80%;
+}
+
+.btn-buy{
+    justify-self: flex-end;  
+    margin-left: 18%;
+    width: 30%; 
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.ul-epcs{
+    width: 80%;
+    padding-left: 2px;
+    display: flex;
+    flex-flow: column;
+}
+.li-epcs{
+    width: 15%;
+    margin-top: 20px;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+.li-epcs h4{
+    font-size: 1em;
+    background-color: #e6b99586;
+    color: rgb(68, 67, 67);
+}
+.li-epcs2 h4{
+    background-color: #6d8b7479;
+}
+.li-epcs-span{
+    font-size: 2em;
+}

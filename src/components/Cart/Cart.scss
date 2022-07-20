@@ -1,0 +1,15 @@
+@import "/src/Custom.scss";
+
+.c-nada-container{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+}
+.c-img-nada{
+    margin-top: 0;
+}
+.c-nada{
+    font-family: $font-p;
+}

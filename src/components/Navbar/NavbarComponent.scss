@@ -1,0 +1,26 @@
+@import "/src/Custom.scss";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,800&display=swap');
+
+.link-nav{
+    text-decoration: none;
+    color: #bfc9b9;
+}
+.link-d-nav{
+    text-decoration: none;
+    color: black;
+}
+
+.link-d-nav:hover{
+    color: black;
+}
+
+.link-nav:hover{
+    color: #bfc9b9;
+}
+.NavbarBrand{
+    font-weight: 200;
+    text-transform: uppercase;
+    img{
+        margin-right: 20px;
+    }
+}
